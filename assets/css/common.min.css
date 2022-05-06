@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 .adventurelogo {
   width: 60px;
   height: 40px;
@@ -108,7 +112,7 @@ ul {
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-left: 28%;
 }
-.video_part {
+/* .video_part {
   top: 65%;
   position: absolute;
   left: 26%;
@@ -126,4 +130,19 @@ ul {
   top: 50%;
   position: absolute;
   right: 25%;
+} */
+.card:focus,
+img:focus,
+a:focus {
+  box-shadow: none;
+  outline: none;
+}
+.image-size {
+  height: 200px;
+  width: 100%;
+}
+.video_part {
+  top: 33%;
+  position: absolute;
+  left: 22%;
 }

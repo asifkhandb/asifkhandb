@@ -6,12 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/common.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- fancy box -->
+  <link rel="stylesheet" href="assets/css/fancybox.min.css">
+
 </head>
+
 
 <body>
   <div class="background position-relative mb-5">
@@ -22,9 +27,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mx-auto mb-2 mb-lg-0 ">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#">Logo</a>
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active text-white" href="#">work</a>
@@ -33,7 +38,7 @@
               <a class="nav-link active text-white" href="#">contact us</a>
             </li>
           </ul>
-          <div class="mx-auto ">
+          <div class="mx-auto">
             <img class="adventurelogo mx-auto" src="assets/Images/adventurelogo.png" alt="clapsimage">
           </div>
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -139,7 +144,7 @@
         <h1 class="text-center one_color">03</h1>
         <p class="text-center">Chapter</p>
         <h2 class="text-center text-white">THE TEAM</h2>
-        <div class="team images_diamondshape">
+        <div class="team images_diamondshape col-6">
           <img src="assets/Images/images.jpg" class="images_diamondshape" />
           <img src="assets/Images/images.jpg" />
           <img src="assets/Images/images.jpg" />
@@ -162,22 +167,24 @@
         <p class="text-center">Chapter</p>
         <h2 class="text-center">JOURNAL</h2>
       </div>
-      <div class="container row text-center">
-        <div class="col-md-6">
-          <iframe
-            src="assets/Images/Kaka New Song - Kale Je Libaas Di(Official Video) Ginni Kapoor -New Punjabi Songs 2021- Punjabi song.mp4"
-            frameborder="0"></iframe>
-          <iframe
-            src="assets/Images/MOVIE- Dhokha Song - Arijit Singh - Khushalii Kumar, Parth, Nishant, Manan B, Mohan S V, Bhushan K.mp4"
-            frameborder="0" class=" video_part"></iframe>
-        </div>
-        <div class="col-md-6">
-          <iframe
-            src="assets/Images/MOVIE- Dhokha Song - Arijit Singh - Khushalii Kumar, Parth, Nishant, Manan B, Mohan S V, Bhushan K.mp4"
-            frameborder="0" class="secondpartvideo"></iframe>
-          <iframe
-            src="assets/Images/Kaka New Song - Kale Je Libaas Di(Official Video) Ginni Kapoor -New Punjabi Songs 2021- Punjabi song.mp4"
-            frameborder="0" class="videos-tab"></iframe>
+      <div class="container mt-5">
+        <div class="row video_part">
+          <div class="col-md-6 ">
+            <div class="card border-0">
+              <a href="assets/Images/Kaka New Song - Kale Je Libaas Di(Official Video) Ginni Kapoor -New Punjabi Songs 2021- Punjabi song.mp4"
+                data-fancybox="" tabindex="0">
+                <img src="assets/Images/aboutus-banner.jpg" class="img-fluid image-size">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0">
+              <a href="assets/Images/MOVIE- Dhokha Song - Arijit Singh - Khushalii Kumar, Parth, Nishant, Manan B, Mohan S V, Bhushan K.mp4"
+                data-fancybox="" tabindex="0">
+                <img src="assets/Images/aboutus-banner.jpg" class="img-fluid image-size">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -186,7 +193,7 @@
     <div class="backgroundsix">
       <div class="container mt-5 centered_deep">
         <p class="text-white text-center mx-auto ">what do you want to do ?</p>
-        <div class="text-center mt-5 text-white">
+        <div class="text-center mt-5 text-white mb-5">
           <button type="button" class="btn btn-lg text-white letstalk_button shadow-none">SHARE THIS
             STORY</button>
           or
@@ -196,13 +203,16 @@
       </div>
     </div>
   </div>
+
+  <script src="assets/js/jquery.slim.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery-3.4.1.js"></script>
-  <script src="assets/js/jquery.slim.min.js"></script>
   <script src="assets/js/slick.js"></script>
   <script src="assets/js/slick.min.js"></script>
   <script type="text/javascript" src="assets/js/custom.js"></script>
+  <!-- fancy box -->
+  <script src="assets/js/fancybox.min.js"></script>
 </body>
 
 </html>
